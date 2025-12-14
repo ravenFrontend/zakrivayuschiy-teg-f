@@ -24,8 +24,8 @@
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter-eight">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-shadowed-invert">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -90,8 +90,8 @@
       <article class="card">
         <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter-one">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-dusty">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -158,8 +158,8 @@
       <article class="card">
         <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter-two">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-saturate">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -224,8 +224,8 @@
       <article class="card">
         <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter__three">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-hue">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -292,8 +292,8 @@
       <article class="card">
         <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter__four">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-invert">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -361,8 +361,8 @@
       <article class="card">
         <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter__five">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-sepia-grayscale">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -427,8 +427,8 @@
       <article class="card">
         <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter__six">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-blur">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -495,8 +495,8 @@
       <article class="card">
         <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="card__poster">
-          <label class="card__poster-label">&lt;/HTML&gt;</label>
-          <picture class="card__poster-img filter__seven">
+          <span class="card__poster-label">&lt;/HTML&gt;</span>
+          <picture class="card__poster-img filter-saturated-hue">
             <source srcset="./images/card/image-1.webp" />
             <img
               loading="lazy"
@@ -562,26 +562,26 @@
           </div>
         </div>
       </article>
-    </main>
-    <div class="save__container">
-      <button
-        class="button button__save"
-        type="button"
-        onclick="window['dialog__save'].showModal()"
-      >
-        <svg
-          class="save-icon"
-          viewBox="0 0 21 21"
-          aria-hidden="true"
-          width="100%"
-          height="100%"
-          xmlns="http://www.w3.org/2000/svg"
+      <div class="save__container">
+        <button
+          class="button button__save"
+          type="button"
+          onclick="window['dialog__save'].showModal()"
         >
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </div>
+          <svg
+            class="save-icon"
+            viewBox="0 0 21 21"
+            aria-hidden="true"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+      </div>
+    </main>
     <dialog id="dialog__save" class="dialog__save">
       <div class="dialog__save-wrapper">
         <svg
