@@ -293,7 +293,7 @@
 }
 
 .filter-eight {
-  filter: brightness(180%);
+  filter: invert(20%) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
 }
 /*====================================
   Модалка
