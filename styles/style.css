@@ -291,6 +291,10 @@
   filter: saturate(250%) hue-rotate(110deg) blur(0.2rem) brightness(80%)
     contrast(50%);
 }
+
+.filter-eight {
+  filter: brightness(180%);
+}
 /*====================================
   Модалка
 ====================================*/
